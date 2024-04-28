@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D3EB7A912B7B2D440032250F /* FirstiOSAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EB7A902B7B2D440032250F /* FirstiOSAppApp.swift */; };
+		D3A3E3302B80557300D5CE32 /* EyeRx.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A3E32F2B80557300D5CE32 /* EyeRx.swift */; };
+		D3EB7A912B7B2D440032250F /* EyeRxConverterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EB7A902B7B2D440032250F /* EyeRxConverterApp.swift */; };
 		D3EB7A932B7B2D440032250F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EB7A922B7B2D440032250F /* ContentView.swift */; };
 		D3EB7A952B7B2D450032250F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3EB7A942B7B2D450032250F /* Assets.xcassets */; };
 		D3EB7A982B7B2D450032250F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3EB7A972B7B2D450032250F /* Preview Assets.xcassets */; };
@@ -34,8 +35,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D3A3E32F2B80557300D5CE32 /* EyeRx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EyeRx.swift; sourceTree = "<group>"; };
 		D3EB7A8D2B7B2D440032250F /* FirstiOSApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstiOSApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D3EB7A902B7B2D440032250F /* FirstiOSAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstiOSAppApp.swift; sourceTree = "<group>"; };
+		D3EB7A902B7B2D440032250F /* EyeRxConverterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EyeRxConverterApp.swift; sourceTree = "<group>"; };
 		D3EB7A922B7B2D440032250F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D3EB7A942B7B2D450032250F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D3EB7A972B7B2D450032250F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -74,7 +76,7 @@
 		D3EB7A842B7B2D440032250F = {
 			isa = PBXGroup;
 			children = (
-				D3EB7A8F2B7B2D440032250F /* FirstiOSApp */,
+				D3EB7A8F2B7B2D440032250F /* Shared */,
 				D3EB7AA02B7B2D450032250F /* FirstiOSAppTests */,
 				D3EB7AAA2B7B2D450032250F /* FirstiOSAppUITests */,
 				D3EB7A8E2B7B2D440032250F /* Products */,
@@ -91,15 +93,16 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D3EB7A8F2B7B2D440032250F /* FirstiOSApp */ = {
+		D3EB7A8F2B7B2D440032250F /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				D3EB7A902B7B2D440032250F /* FirstiOSAppApp.swift */,
+				D3EB7A902B7B2D440032250F /* EyeRxConverterApp.swift */,
 				D3EB7A922B7B2D440032250F /* ContentView.swift */,
 				D3EB7A942B7B2D450032250F /* Assets.xcassets */,
 				D3EB7A962B7B2D450032250F /* Preview Content */,
+				D3A3E32F2B80557300D5CE32 /* EyeRx.swift */,
 			);
-			path = FirstiOSApp;
+			path = Shared;
 			sourceTree = "<group>";
 		};
 		D3EB7A962B7B2D450032250F /* Preview Content */ = {
@@ -258,7 +261,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D3EB7A932B7B2D440032250F /* ContentView.swift in Sources */,
-				D3EB7A912B7B2D440032250F /* FirstiOSAppApp.swift in Sources */,
+				D3A3E3302B80557300D5CE32 /* EyeRx.swift in Sources */,
+				D3EB7A912B7B2D440032250F /* EyeRxConverterApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

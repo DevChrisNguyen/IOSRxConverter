@@ -12,6 +12,7 @@ struct FirstiOSAppApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+            
         }
     }
 }
